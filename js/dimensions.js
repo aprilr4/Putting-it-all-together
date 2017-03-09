@@ -296,5 +296,5 @@ var DIMENSIONS = [
         "type": "Story Pack",
         "characters": "Robin, Batgirl",
         "image": "img/71264.jpg"
-    },
+    }
 ];

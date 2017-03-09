@@ -4,3 +4,7 @@ main {
 .mdl-textfield {
     padding-right: 50px;
 }
+
+button {
+    float: right;
+}
