@@ -1,6 +1,7 @@
 "use strict";
 
 
+
 function renderDimensionsProp(value, nonNumeric) {
     //create, populate, and return a new <td> element
     var td = document.createElement("td");

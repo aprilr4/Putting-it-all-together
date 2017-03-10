@@ -19,23 +19,35 @@
 </head>
 <body>
  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-drawer-button">
-        <header class="mdl-layout__header">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
             <div class="mdl-layout__header-row">
                 <span class="mdl-layout-title">LEGO DIMENSIONS Collection</span>
             </div>
         </header>
-
         <main class="mdl-layout__content">
 
            <p> Search for a pack title, item number, character, or pack type below </p>
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="title-input">
-                <label class="mdl-textfield__label" for="title-input">Search for a pack</label>
-            </div> 
+           
+           <section id="features">
+               <div class ="container">
+                   <div class="row">
+                        <div class="col">
+                        
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="text" id="title-input">
+                                <label class="mdl-textfield__label" for="title-input">Search for a pack</label>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                                Add a pack
+                            </button>
+                        </div>
+                   </div>
+               </div>
+           </section>
 
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-                Add a pack
-            </button>
+
 
 
             <table class="mdl-data-table mdl-js-data-table">

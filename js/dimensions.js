@@ -1,6 +1,6 @@
 /*  A list of all LEGO DIMENSIONS packs currently in the collection. 
     Item numbers are listed as strings in order for a multi-input search box to function correctly.
-    I realized that mdl input takes either text or number, but not both.
+    Only realized after editing each number property that the input type can be "mixed.".
 */
 var DIMENSIONS = [
     {
