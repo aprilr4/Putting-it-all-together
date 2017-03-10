@@ -12,3 +12,4 @@ I created this page to have an easy way to keep track of which LEGO Dimensions f
 * An option to bring up a list of unowned figures. 
 
 ### Link to the page
+https://aprilr4.github.io/Putting-it-all-together/
