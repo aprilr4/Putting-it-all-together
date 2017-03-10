@@ -9,9 +9,7 @@ main {
 }
 
 .mdl-textfield {
-    background-image: url('../img/semi-transparent.png');
-    background-size: 300px 100px;
-    background-position: cover;
+    background-color: yellow;
     margin-bottom: 15px;
 }
 

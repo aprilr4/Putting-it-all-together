@@ -2,10 +2,11 @@
 
 
 
+
 function renderDimensionsProp(value, nonNumeric) {
     //create, populate, and return a new <td> element
     var td = document.createElement("td");
-        td.textContent = value;
+            td.textContent = value;
 
     if (nonNumeric) {
         td.classList.add("mdl-data-table__cell--non-numeric");
@@ -13,9 +14,11 @@ function renderDimensionsProp(value, nonNumeric) {
     return td;
 };
 
+
+
 function renderDimensions(pack) {
     var tr = document.createElement("tr");
-    var renderImage = new Image(100, 200);
+    var renderImage = document.createElement("img");
         renderImage.src = pack.image;
         
 
@@ -23,7 +26,7 @@ function renderDimensions(pack) {
     tr.appendChild(renderDimensionsProp(pack.number, true));
     tr.appendChild(renderDimensionsProp(pack.characters, true));
     tr.appendChild(renderDimensionsProp(pack.type, true));
-    tr.appendChild(renderDimensionsProp(renderImage, true));
+    tr.appendChild(renderDimensionsProp(renderImage.src, true));
     return tr;
 }
 
