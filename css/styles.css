@@ -4,7 +4,6 @@ main {
 
 .mdl-layout-title {
     color: white;
-    font-size: 30px;
 }
 
 .mdl-layout {
@@ -39,7 +38,7 @@ p {
 .col {
     flex-grow: 1;
     flex-basis: auto;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .mdl-logo {
