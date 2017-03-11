@@ -32,25 +32,25 @@
                <div class ="container">
                    <div class="row">
                         <div class="col">
-                        
+                        <!-- Search Textfield -->
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                                 <input class="mdl-textfield__input" type="text" id="title-input">
                                 <label class="mdl-textfield__label" for="title-input">Search for a pack</label>
                             </div> 
                         </div>
                         <div class="col">
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
-                                Add a pack
-                            </button>
+                        <!-- Add a Pack Textfield -->
+                            <button id="add-pack-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Add a Pack</button>
+                            <div id="add-pack" class="mdl-js-snackbar mdl-snackbar">
+                                    <div class="mdl-snackbar__text"></div>
+                                    <button class="mdl-snackbar__action" type="button"></button>
+                            </div>
                         </div>
                    </div>
                </div>
            </section>
 
-
-
-
-            <table class="mdl-data-table mdl-js-data-table">
+         <table class="mdl-data-table mdl-js-data-table">
                 <thead>
                     <tr>
                         <th class="mdl-data-table__cell--non-numeric">Image</th>
@@ -69,6 +69,9 @@
 
     <!--dimensions collection data-->
     <script src="js/dimensions.js"></script>
+
+    <!--unowned items data-->
+    <script src="js/unowned.js"></script>
 
     <!--application script-->
     <script src="js/app.js"></script>

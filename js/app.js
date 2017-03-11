@@ -1,6 +1,8 @@
 "use strict";
 
 
+    
+
 
 
 function renderDimensionsProp(value, nonNumeric) {
@@ -67,4 +69,20 @@ titleInput.addEventListener("input", function() {
    renderLegoDimensions(titleFilter);
 });
 
-
+var snackbarContainer = document.querySelector('#add-pack');
+  var showSnackbarButton = document.querySelector('#add-pack-snackbar');
+  var handler = function(event) {
+    showSnackbarButton.style.backgroundColor = '';
+  };
+  showSnackbarButton.addEventListener('click', function() {
+    'use strict';
+    showSnackbarButton.style.backgroundColor = '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    var data = {
+      message: 'Add a Pack functionality coming soon.',
+      timeout: 2000,
+      actionHandler: handler,
+      actionText: 'Undo'
+    };
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+  });
