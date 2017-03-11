@@ -62,14 +62,11 @@ html, body {
 
 footer {
     padding-left: 15px;
-<<<<<<< HEAD
     position: fixed;
     left: 0px;
     bottom: 0px;
     height: 30px;
     overflow: auto;
-=======
->>>>>>> parent of a4c9efa... Stable footer
 }
 
 footer p {
