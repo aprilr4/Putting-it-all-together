@@ -8,13 +8,12 @@ main {
 }
 
 .mdl-layout {
-  background-image: url('../img/1024643.jpg'); 
-  background-size: center;
-  background-position: cover;
+    background-image: url('../img/1024643.jpg'); 
+    background-size: center;
+    background-position: cover;
 }
 
 .mdl-textfield {
-
     margin-bottom: 15px;
 }
 
@@ -27,6 +26,7 @@ main {
     padding-left: 15px;
     color: white;
 }
+
 p {
     color: white;
 }
@@ -54,5 +54,8 @@ footer p {
     font-size: 10px;
 }
 
-
-
+@media (min-width: 768px) {
+    .mdl-layout-title {
+        font-size: 30px;
+    }
+}
