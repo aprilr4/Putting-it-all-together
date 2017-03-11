@@ -58,6 +58,7 @@ footer {
     left: 0px;
     bottom: 0px;
     height: 30px;
+    overflow: auto;
 }
 
 footer p {
