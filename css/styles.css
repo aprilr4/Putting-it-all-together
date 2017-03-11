@@ -2,6 +2,10 @@ main {
     padding: 30px;
 }
 
+.mdl-layout-title {
+    color: white;
+}
+
 .mdl-layout {
   background-image: url('../img/1024643.jpg'); 
   background-size: center;
@@ -9,16 +13,18 @@ main {
 }
 
 .mdl-textfield {
-    background-color: yellow;
+
     margin-bottom: 15px;
 }
 
 .mdl-textfield__label {
     padding-left: 15px;
+    color: yellow;
 }
 
 .mdl-textfield__input {
     padding-left: 15px;
+    color: white;
 }
 p {
     color: white;

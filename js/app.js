@@ -30,11 +30,12 @@ function renderDimensions(pack) {
 
         
 
+    tr.appendChild(renderPackImageCol(pack.image));
     tr.appendChild(renderDimensionsProp(pack.title, true));
     tr.appendChild(renderDimensionsProp(pack.number, true));
     tr.appendChild(renderDimensionsProp(pack.characters, true));
     tr.appendChild(renderDimensionsProp(pack.type, true));
-    tr.appendChild(renderPackImageCol(pack.image, true));
+    
     return tr;
 }
 
