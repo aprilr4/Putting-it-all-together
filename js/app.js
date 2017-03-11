@@ -14,19 +14,27 @@ function renderDimensionsProp(value, nonNumeric) {
     return td;
 };
 
+function renderPackImageCol(imageURL) {
+    var td = document.createElement("td");
+    var img = document.createElement("img");
+    img.src = imageURL;
+    img.style.width = "100%";
+    td.appendChild(img);
+    td.classList.add("mdl-data-table__cell--non-numeric");
+    return td;
+}
 
 
 function renderDimensions(pack) {
     var tr = document.createElement("tr");
-    var renderImage = document.createElement("img");
-        renderImage.src = pack.image;
+
         
 
     tr.appendChild(renderDimensionsProp(pack.title, true));
     tr.appendChild(renderDimensionsProp(pack.number, true));
     tr.appendChild(renderDimensionsProp(pack.characters, true));
     tr.appendChild(renderDimensionsProp(pack.type, true));
-    tr.appendChild(renderDimensionsProp(renderImage.src, true));
+    tr.appendChild(renderPackImageCol(pack.image, true));
     return tr;
 }
 
