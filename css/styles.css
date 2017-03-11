@@ -4,6 +4,7 @@ main {
 
 .mdl-layout-title {
     color: white;
+    font-size: 30px;
 }
 
 .mdl-layout {
@@ -41,8 +42,17 @@ p {
     margin-right: 15px;
 }
 
+.mdl-logo {
+    font-size: 10px;
+}
 
+footer {
+    padding-left: 15px;
+}
 
+footer p {
+    font-size: 10px;
+}
 
 
 
