@@ -1,11 +1,6 @@
 main {
     padding: 30px;
 }
-/* Making the table responsive */
-.mdl-data-table {
-    table-layout:fixed;
-    width:100%; 
-}
 
 .mdl-layout-title {
     color: white;
@@ -63,3 +58,9 @@ footer p {
         font-size: 30px;
     }
 }
+
+table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
