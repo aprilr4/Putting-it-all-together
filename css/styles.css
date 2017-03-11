@@ -1,6 +1,11 @@
 main {
     padding: 30px;
 }
+/* Making the table responsive */
+.mdl-data-table {
+    table-layout:fixed;
+    width:100%; 
+}
 
 .mdl-layout-title {
     color: white;
