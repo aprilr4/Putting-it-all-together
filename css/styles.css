@@ -43,8 +43,6 @@ p {
     font-size: 10px;
 }
 
-
-
 footer {
     padding-left: 15px;
     position: fixed;
@@ -71,8 +69,6 @@ footer p {
         overflow-x: auto;
         white-space: nowrap;
     }
+
     
-    footer p {
-        overflow-x: auto; 
-    }
 }
