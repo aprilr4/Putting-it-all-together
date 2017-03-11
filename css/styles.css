@@ -45,6 +45,21 @@ p {
     font-size: 10px;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.footer,
+.push {
+    height: 40px;
+    background-color: darkblue;
+}
+
 footer {
     padding-left: 15px;
 }
@@ -53,14 +68,17 @@ footer p {
     font-size: 10px;
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 768px) {
     .mdl-layout-title {
         font-size: 30px;
     }
 }
 
+@media (max-width: 767px) {
 table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
+}
