@@ -71,10 +71,8 @@ footer p {
     }
     
     footer {
-        height: 60px;
+        height: 100px;
     }
    
-    footer p {
-        font-size: 7px;
-    }
+
 }
