@@ -1,5 +1,6 @@
 main {
     padding: 30px;
+    overflow: auto;
 }
 
 .mdl-layout-title {
@@ -47,21 +48,16 @@ p {
 
 html, body {
     height: 100%;
-    margin: 0;
 }
 
-.wrapper {
-    min-height: 100%;
-}
 
-.footer,
-.push {
-    height: 40px;
-    background-color: darkblue;
-}
 
 footer {
     padding-left: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
 }
 
 footer p {
@@ -74,10 +70,11 @@ footer p {
     }
 }
 
-@media (max-width: 767px) {
+
 table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
     }
+
 }
