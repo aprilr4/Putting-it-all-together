@@ -66,9 +66,13 @@ footer p {
 }
 
 @media (max-width: 767px) {
-table {
+    table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+    }
+    
+    footer p {
+        overflow-x: auto; 
     }
 }
