@@ -53,7 +53,6 @@ footer {
 
 footer p {
     font-size: 10px;
-    text-overflow: initial;
     margin-bottom: 0;
 }
 
@@ -71,7 +70,6 @@ footer p {
     } 
     footer {
         padding-bottom: 1em;
-        height: 10vh;
     }
 }
    
