@@ -71,6 +71,9 @@ footer p {
         overflow-x: auto;
         white-space: nowrap;
     } 
+    footer {
+        padding-bottom: 2em;
+    }
 }
    
 @media (max-height: 400px) {
