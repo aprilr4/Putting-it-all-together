@@ -8,6 +8,7 @@ main {
 
 .mdl-layout {
     background-image: url('../img/1024643.jpg');
+    background-size: 600%;
 }
 
 .mdl-textfield__label {
@@ -27,7 +28,6 @@ p {
 
 .row {
     display: flex;
-  
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 1em; 
@@ -78,3 +78,9 @@ footer p {
         position: inherit;     
     }   
 }
+
+@media (max-width: 275px) {
+    .mdl-layout {
+        background-size: 900%;
+    }
+} 

@@ -2,7 +2,7 @@
 
 function renderDimensionsProp(value, nonNumeric) {
     var td = document.createElement("td");
-            td.textContent = value;
+        td.textContent = value;
 
     if (nonNumeric) {
         td.classList.add("mdl-data-table__cell--non-numeric");
