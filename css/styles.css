@@ -72,6 +72,9 @@ footer p {
         white-space: nowrap;
     } 
 }
+    footer {
+        height: 100px;
+    }
    
 @media (max-height: 400px) {
     footer {
