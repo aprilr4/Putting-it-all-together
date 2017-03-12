@@ -75,10 +75,11 @@ footer p {
     
     footer {
         height: 120px;
+
     }
 
     footer p {
-        padding-top: 4em;
+        padding-top: 15vh;
     }
    
 
