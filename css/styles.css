@@ -30,7 +30,10 @@ p {
 
 .row {
     display: flex;
-    justify-content: flex-start;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em; 
 }
 
 .col {
@@ -44,7 +47,7 @@ p {
 }
 
 footer {
-    padding-left: 15px;
+    padding-left: 30px;
     position: fixed;
     left: 0px;
     bottom: 0px;
@@ -71,7 +74,11 @@ footer p {
     }
     
     footer {
-        height: 100px;
+        height: 120px;
+    }
+
+    footer p {
+        padding-top: 4em;
     }
    
 
