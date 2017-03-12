@@ -81,6 +81,10 @@ footer p {
     footer p {
         padding-top: 15vh;
     }
+}
    
-
+@media (max-height: 360px) {
+    footer {
+        position: inherit;     
+    }   
 }
