@@ -1,3 +1,5 @@
+// Not currently used for the Putting It Together project - ran out of time to develop fully. Created to make future development easier.
+
 var UNOWNED = [
     {
         "title":  "Starter Pack Batman Gandalf Wildstyle Batmobile PS4",
