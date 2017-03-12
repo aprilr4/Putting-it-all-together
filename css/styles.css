@@ -56,7 +56,6 @@ footer {
 
 footer p {
     font-size: 10px;
-    padding-top: 2em;
     text-overflow: initial;
 }
 
@@ -71,19 +70,10 @@ footer p {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
-    }
-    
-    footer {
-        height: 120px;
-
-    }
-
-    footer p {
-        padding-top: 15vh;
-    }
+    } 
 }
    
-@media (max-height: 360px) {
+@media (max-height: 400px) {
     footer {
         position: inherit;     
     }   
