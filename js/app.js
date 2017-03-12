@@ -8,7 +8,7 @@ function renderDimensionsProp(value, nonNumeric) {
         td.classList.add("mdl-data-table__cell--non-numeric");
     }
     return td;
-};
+}
 
 function renderPackImageCol(imageURL) {
     var td = document.createElement("td");
@@ -18,7 +18,7 @@ function renderPackImageCol(imageURL) {
     td.appendChild(img);
     td.classList.add("mdl-data-table__cell--non-numeric");
     return td;
-};
+}
 
 function renderDimensions(pack) {
     var tr = document.createElement("tr");
@@ -27,10 +27,9 @@ function renderDimensions(pack) {
     tr.appendChild(renderDimensionsProp(pack.title, true));
     tr.appendChild(renderDimensionsProp(pack.number, true));
     tr.appendChild(renderDimensionsProp(pack.characters, true));
-    tr.appendChild(renderDimensionsProp(pack.type, true));
-    
+    tr.appendChild(renderDimensionsProp(pack.type, true));  
     return tr;
-};
+}
 
 function renderLegoDimensions(packs) {
     var tbody = document.querySelector("tbody");
@@ -65,20 +64,19 @@ Add a Pack Button. Currently color changing button with response. To be updated 
 Check for a matching number property in the UNOWNED array, if found, push object to DIMENSIONS array, give response via snackbar. 
 Didn't have enough time to make this work properly for this assignment, so I kept it as a color changer.
 */
-var snackbarContainer = document.querySelector('#add-pack');
-  var showSnackbarButton = document.querySelector('#add-pack-snackbar');
+var snackbarContainer = document.querySelector("#add-pack");
+  var showSnackbarButton = document.querySelector("#add-pack-snackbar");
   var handler = function(event) {
-    showSnackbarButton.style.backgroundColor = '';
+    showSnackbarButton.style.backgroundColor = "";
   };
-  showSnackbarButton.addEventListener('click', function() {
-    'use strict';
-    showSnackbarButton.style.backgroundColor = '#' +
+  showSnackbarButton.addEventListener("click", function() {
+    showSnackbarButton.style.backgroundColor = "#" +
         Math.floor(Math.random() * 0xFFFFFF).toString(16);
     var data = {
-      message: 'Add a Pack functionality coming soon.',
+      message: "Add a Pack functionality coming soon.",
       timeout: 4000,
       actionHandler: handler,
-      actionText: 'OK'
+      actionText: "OK"
     };
     snackbarContainer.MaterialSnackbar.showSnackbar(data);
   });
