@@ -30,13 +30,6 @@ var UNOWNED = [
         "image": "img/71174.jpg"
     },
     {
-        "title":  "Sonic the Hedgehog Level Pack",
-        "number": "71244",
-        "type": "Level Pack",
-        "characters": "Sonic the Hedgehog",
-        "image": "img/71244.jpg"
-    },
-    {
         "title":  "Gremlins Team Pack",
         "number": "71256",
         "type": "Team Pack",
@@ -72,13 +65,6 @@ var UNOWNED = [
         "image": "img/71258.jpg"
     },
     {
-        "title":  "Bane Fun Pack",
-        "number": "71240",
-        "type": "Fun Pack",
-        "characters": "Bane",
-        "image": "img/71240.jpg"
-    },
-    {
         "title":  "Lloyd Fun Pack",
         "number": "71239",
         "type": "Fun Pack",
@@ -98,5 +84,19 @@ var UNOWNED = [
         "type": "Fun Pack",
         "characters": "Jay",
         "image": "img/71215.jpg"
-    }
+    },
+    {
+        "title":  "Hermione Fun Pack",
+        "number": "71348",
+        "type": "Fun Pack",
+        "characters": "Hermione",
+        "image": "img/71348.jpg"
+    },
+    {
+        "title":  "Knight Rider Fun Pack",
+        "number": "71286",
+        "type": "Fun Pack",
+        "characters": "Michael Knight",
+        "image": "img/71286.jpg"
+    },
     ]
