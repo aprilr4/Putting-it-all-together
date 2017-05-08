@@ -318,4 +318,4 @@ var DIMENSIONS = [
         "characters": "Batman",
         "image": "img/71344.jpg"
     },
-]
+];
