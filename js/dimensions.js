@@ -262,7 +262,7 @@ var DIMENSIONS = [
         "characters": "Ethan Hunt",
         "image": "img/71248.jpg"
     },
-        {
+    {
         "title": "A-Team Fun Pack",
         "number": "71251",
         "type": "Fun Pack",
@@ -296,7 +296,7 @@ var DIMENSIONS = [
         "type": "Story Pack",
         "characters": "Robin, Batgirl",
         "image": "img/71264.jpg"
-    }
+    },
     {
         "title":  "Sonic the Hedgehog Level Pack",
         "number": "71244",
@@ -318,4 +318,4 @@ var DIMENSIONS = [
         "characters": "Batman",
         "image": "img/71344.jpg"
     },
-];
+]
