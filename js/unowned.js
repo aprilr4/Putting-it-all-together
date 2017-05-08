@@ -99,7 +99,7 @@ var UNOWNED = [
         "characters": "Chase McCain",
         "image": "img/71266.jpg"
     },
-    }
+    {
         "title":  "Hermione Fun Pack",
         "number": "71348",
         "type": "Fun Pack",
