@@ -30,13 +30,6 @@ var UNOWNED = [
         "image": "img/71174.jpg"
     },
     {
-        "title":  "Sonic the Hedgehog Level Pack",
-        "number": "71244",
-        "type": "Level Pack",
-        "characters": "Sonic the Hedgehog",
-        "image": "img/71244.jpg"
-    },
-    {
         "title":  "Gremlins Team Pack",
         "number": "71256",
         "type": "Team Pack",
@@ -72,13 +65,6 @@ var UNOWNED = [
         "image": "img/71258.jpg"
     },
     {
-        "title":  "Bane Fun Pack",
-        "number": "71240",
-        "type": "Fun Pack",
-        "characters": "Bane",
-        "image": "img/71240.jpg"
-    },
-    {
         "title":  "Lloyd Fun Pack",
         "number": "71239",
         "type": "Fun Pack",
@@ -100,12 +86,6 @@ var UNOWNED = [
         "image": "img/71215.jpg"
     },
     {
-        "title":  "Lego Batman Movie Fun Pack",
-        "number": "71344",
-        "type": "Fun Pack",
-        "characters": "Excalibur Batman",
-        "image": "img/71344.jpg"
-    },
     {
         "title":  "Knight Rider Fun Pack",
         "number": "71286",
@@ -114,17 +94,38 @@ var UNOWNED = [
         "image": "img/71286.jpg"
     },
     {
-        "title":  "Harry Potter Fun Pack",
-        "number": "71348",
-        "type": "Fun Pack",
-        "characters": "Hermione Granger",
-        "image": "img/71348.jpg"
-    },
-    {
         "title":  "Lego City Fun Pack",
         "number": "71266",
         "type": "Fun Pack",
         "characters": "Chase McCain",
         "image": "img/71266.jpg"
+    },
     }
-    ]
+        "title":  "Hermione Fun Pack",
+        "number": "71348",
+        "type": "Fun Pack",
+        "characters": "Hermione",
+        "image": "img/71348.jpg"
+    },
+    }
+        "title":  "Lego Batman Movie Fun Pack",
+        "number": "71344",
+        "type": "Fun Pack",
+        "characters": "Excalibur Batman",
+        "image": "img/71344.jpg"
+    },
+    {
+        "title":  "Harry Potter Fun Pack",
+        "number": "71348",
+        "type": "Fun Pack",
+        "characters": "Hermione Granger",
+        "image": "img/71348.jpg"
+  },
+  {  
+        "title":  "Goonies Level Pack",
+        "number": "71267",
+        "type": "Level Pack",
+        "characters": "Sloth",
+        "image": "img/71267.jpg"
+  }
+]

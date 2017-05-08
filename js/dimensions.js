@@ -297,4 +297,25 @@ var DIMENSIONS = [
         "characters": "Robin, Batgirl",
         "image": "img/71264.jpg"
     }
+    {
+        "title":  "Sonic the Hedgehog Level Pack",
+        "number": "71244",
+        "type": "Level Pack",
+        "characters": "Sonic the Hedgehog",
+        "image": "img/71244.jpg"
+    },
+    {
+        "title":  "Bane Fun Pack",
+        "number": "71240",
+        "type": "Fun Pack",
+        "characters": "Bane",
+        "image": "img/71240.jpg"
+    },
+    {
+        "title":  "Excalibur Batman",
+        "number": "71344",
+        "type": "Fun Pack",
+        "characters": "Batman",
+        "image": "img/71344.jpg"
+    },
 ];
