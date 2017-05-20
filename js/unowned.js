@@ -72,13 +72,6 @@ var UNOWNED = [
         "image": "img/71239.jpg"
     },
     {
-        "title":  "Superman Fun Pack",
-        "number": "71236",
-        "type": "Fun Pack",
-        "characters": "Superman",
-        "image": "img/71236.jpg"
-    },
-    {
         "title":  "Jay Fun Pack",
         "number": "71215",
         "type": "Fun Pack",
@@ -100,31 +93,24 @@ var UNOWNED = [
         "image": "img/71266.jpg"
     },
     {
-        "title":  "Hermione Fun Pack",
+        "title":  "Harry Potter Fun Pack",
         "number": "71348",
         "type": "Fun Pack",
-        "characters": "Hermione",
+        "characters": "Hermione Granger",
         "image": "img/71348.jpg"
     },
-    }
+    {
         "title":  "Lego Batman Movie Fun Pack",
         "number": "71344",
         "type": "Fun Pack",
         "characters": "Excalibur Batman",
         "image": "img/71344.jpg"
     },
-    {
-        "title":  "Harry Potter Fun Pack",
-        "number": "71348",
-        "type": "Fun Pack",
-        "characters": "Hermione Granger",
-        "image": "img/71348.jpg"
-  },
-  {  
+    {  
         "title":  "Goonies Level Pack",
         "number": "71267",
         "type": "Level Pack",
         "characters": "Sloth",
         "image": "img/71267.jpg"
-  }
+    }
 ]
