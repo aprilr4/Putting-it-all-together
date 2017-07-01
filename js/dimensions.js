@@ -324,8 +324,8 @@ var DIMENSIONS = [
         "type": "Fun Pack",
         "characters": "Superman",
         "image": "img/71236.jpg"
-    }
-        {
+    },
+    {
         "title":  "Lego City Fun Pack",
         "number": "71266",
         "type": "Fun Pack",
