@@ -311,7 +311,7 @@ var DIMENSIONS = [
         "characters": "Bane",
         "image": "img/71240.jpg"
     },
-    {
+    {        
         "title":  "Superman Fun Pack",
         "number": "71236",
         "type": "Fun Pack",
