@@ -312,13 +312,6 @@ var DIMENSIONS = [
         "image": "img/71240.jpg"
     },
     {
-        "title":  "Excalibur Batman",
-        "number": "71344",
-        "type": "Fun Pack",
-        "characters": "Batman",
-        "image": "img/71344.jpg"
-    },
-    {
         "title":  "Superman Fun Pack",
         "number": "71236",
         "type": "Fun Pack",
