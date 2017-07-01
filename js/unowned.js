@@ -6,6 +6,7 @@ var UNOWNED = [
         "number": "71171",
         "type": "Starter Pack",
         "characters": "Batman, Gandalf, Wildstyle, Supergirl",
+        "universe": "DC, LEGO Movie, Lord of the Rings",
         "image": "img/71171.jpg"
     },
     {
@@ -13,6 +14,7 @@ var UNOWNED = [
         "number": "71172",
         "type": "Starter Pack",
         "characters": "Batman, Gandalf, Wildstyle",
+        "universe": "DC, LEGO Movie, Lord of the Rings",
         "image": "img/71172.jpg"
     },
     {
@@ -20,6 +22,7 @@ var UNOWNED = [
         "number": "71173",
         "type": "Starter Pack",
         "characters": "Batman, Gandalf, Wildstyle",
+        "universe": "DC, LEGO Movie, Lord of the Rings",
         "image": "img/71173.jpg"
     },
     {
@@ -27,6 +30,7 @@ var UNOWNED = [
         "number": "71174",
         "type": "Starter Pack",
         "characters": "Batman, Gandalf, Wildstyle",
+        "universe": "DC, LEGO Movie, Lord of the Rings",
         "image": "img/71174.jpg"
     },
     {
@@ -34,6 +38,7 @@ var UNOWNED = [
         "number": "71256",
         "type": "Team Pack",
         "characters": "Gizmo, Stripe",
+        "universe": "Gremlins",
         "image": "img/71256.jpg"
     },
     {
@@ -41,6 +46,7 @@ var UNOWNED = [
         "number": "71246",
         "type": "Team Pack",
         "characters": "Jake the Dog, Lumpy Space Princess",
+        "universe": "Adventure Time",
         "image": "img/71246.jpg"
     },
     {
@@ -48,6 +54,7 @@ var UNOWNED = [
         "number": "71207",
         "type": "Team Pack",
         "characters": "Cole, Kai",
+        "universe": "Ninjago",
         "image": "img/71207.jpg"
     },
     {
@@ -55,6 +62,7 @@ var UNOWNED = [
         "number": "71285",
         "type": "Fun Pack",
         "characters": "Marceline the Vampire Queen",
+        "universe": "Adventure Time",
         "image": "img/71285.jpg"
     },
     {
@@ -62,6 +70,7 @@ var UNOWNED = [
         "number": "71258",
         "type": "Fun Pack",
         "characters": "E.T.",
+        "universe": "E.T.",
         "image": "img/71258.jpg"
     },
     {
@@ -69,6 +78,7 @@ var UNOWNED = [
         "number": "71239",
         "type": "Fun Pack",
         "characters": "Lloyd",
+        "universe": "Ninjago",
         "image": "img/71239.jpg"
     },
     {
@@ -76,6 +86,7 @@ var UNOWNED = [
         "number": "71215",
         "type": "Fun Pack",
         "characters": "Jay",
+        "universe": "Ninjago",
         "image": "img/71215.jpg"
     },
     {
@@ -83,6 +94,7 @@ var UNOWNED = [
         "number": "71286",
         "type": "Fun Pack",
         "characters": "Michael Knight",
+        "universe": "Knight Rider",
         "image": "img/71286.jpg"
     },
 ]

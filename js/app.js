@@ -27,6 +27,7 @@ function renderDimensions(pack) {
     tr.appendChild(renderDimensionsProp(pack.title, true));
     tr.appendChild(renderDimensionsProp(pack.number, true));
     tr.appendChild(renderDimensionsProp(pack.characters, true));
+    tr.appendChild(renderDimensionsProp(pack.universe, true));
     tr.appendChild(renderDimensionsProp(pack.type, true));  
     return tr;
 }
@@ -54,7 +55,7 @@ titleInput.addEventListener("input", function() {
    var searchString = titleInput.value.toLowerCase();
    
    var titleFilter = DIMENSIONS.filter(function(p) {
-        return p.title.toLowerCase().indexOf(searchString) >=0 || p.characters.toLowerCase().indexOf(searchString) >=0 || p.type.toLowerCase().indexOf(titleInput.value) >=0 || p.number.indexOf(searchString) >=0;
+        return p.title.toLowerCase().indexOf(searchString) >=0 || p.characters.toLowerCase().indexOf(searchString) >=0 || p.type.toLowerCase().indexOf(titleInput.value) >=0 || p.universe.toLowerCase().indexOf(searchString) >=0 ||p.number.indexOf(searchString) >=0;
    });
    renderLegoDimensions(titleFilter);
 });
