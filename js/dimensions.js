@@ -394,5 +394,13 @@ var DIMENSIONS = [
         "characters": "Sloth",
         "universe": "Goonies",
         "image": "img/71267.jpg"
+    },
+    {
+        "title":  "Starter Pack Batman Gandalf Wildstyle Batmobile PS4",
+        "number": "71171",
+        "type": "Starter Pack",
+        "characters": "Batman, Gandalf, Wildstyle, Supergirl",
+        "universe": "DC, LEGO Movie, Lord of the Rings",
+        "image": "img/71171.jpg"
     }
 ];

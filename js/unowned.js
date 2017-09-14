@@ -2,14 +2,6 @@
 
 var UNOWNED = [
     {
-        "title":  "Starter Pack Batman Gandalf Wildstyle Batmobile PS4",
-        "number": "71171",
-        "type": "Starter Pack",
-        "characters": "Batman, Gandalf, Wildstyle, Supergirl",
-        "universe": "DC, LEGO Movie, Lord of the Rings",
-        "image": "img/71171.jpg"
-    },
-    {
         "title":  "Starter Pack Batman Gandalf Wildstyle Batmobile XBOX One",
         "number": "71172",
         "type": "Starter Pack",
@@ -97,4 +89,44 @@ var UNOWNED = [
         "universe": "Knight Rider",
         "image": "img/71286.jpg"
     },
-]
+    {
+        "title":  "The Powerpuff Girls Team Pack",
+        "number": "71346",
+        "type": "Team Pack",
+        "characters": "Blossom, Bubbles",
+        "universe": "Powerpuff Girls",
+        "image": "img/71346.jpg"
+    },
+    {
+        "title":  "Beetlejuice Fun Pack",
+        "number": "71349",
+        "type": "Fun Pack",
+        "characters": "Beetlejuice",
+        "universe": "Beetlejuice",
+        "image": "img/71349.jpg"
+    },
+    {
+        "title":  "The Powerpuff Girls Fun Pack",
+        "number": "71343",
+        "type": "Fun Pack",
+        "characters": "Buttercup",
+        "universe": "Powerpuff Girls",
+        "image": "img/71343.jpg"
+    },
+    {
+        "title":  "Teen Titans Go! Team Pack",
+        "number": "71255",
+        "type": "Team Pack",
+        "characters": "Beast Boy, Raven",
+        "universe": "DC, Teen Titans Go",
+        "image": "img/71255.jpg"
+    },
+    {
+        "title":  "Teen Titans Go! Fun Pack",
+        "number": "71287",
+        "type": "Fun Pack",
+        "characters": "Starfire",
+        "universe": "DC, Teen Titans Go",
+        "image": "img/71287.jpg"
+    }  
+    ]
